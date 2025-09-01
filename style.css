@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.cabeça {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabeçass {
+    display: flex;
+    gap: 80px;
+}
+
+.navbar {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: aqua;
+}
+
+.navbar:hover {
+    background-color: aqua;
+    color: rgb(0, 0, 36);
+    border-radius: 10px;
+    border: solid aqua;
+    padding: 0px 6px;
+}
+
+.linha {
+    border: none;
+    height: 3px;
+    background-color: aqua;
+    border-radius: 5px;
+    margin: 16px 0;
+    width: 80%;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 36);
+    color: #F6F6F6;
+}
+
+.titulo {
+    color: aqua;
+    font-size: 2.25rem;
+}
+
+.sub-titulo {
+    font-weight: 400;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: aqua;
+
+}
+
+.apresentacao__conteudo strong {
+    color: aqua;
+}
+
+.apresentacao {
+    margin: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    gap: 40px;
+    flex-direction: column;
+    display: flex;
+    width: 50%;
+}
+
+.apresentacao__imagem {
+    padding-left: 80px;
+    width: 50%;
+}
+
+.apresentacao .imagem02 {
+    padding-left: 80px;
+    width: 50%;
+}
+
+.apresentacao p {
+    font-size: 1.5rem;
+}
+
+.apresentacao .link {
+    gap: 32px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo .links__navegacao {
+    border: 2px solid aqua;
+    width: 70%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    padding: 21.5px 0px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.links__navegacao:hover {
+    border: 2px solid aqua;
+    scale: 1.03;
+    background-color: white;
+    color: rgb(0, 0, 36);
+}
+
+footer {
+    font-weight: 500;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+    color: rgb(0, 0, 36);
+    background-color: aqua;
+}
